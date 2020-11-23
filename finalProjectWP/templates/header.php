@@ -35,13 +35,12 @@
                 </ul>
                 <ul class="navbar-nav ml-auto">
                     <!-- jika sesion terdapat value maka tampilkkan menu berikut -->
+                    
                     <?php if (isset($_SESSION['data'])) : ?>
-                    <!-- <li class="nav-item">
-                        <a class="navbar-brand">
-                            <img src="assets/img/profile/<?= $row['image'] ?>" width="45" height="45" alt=""
+                    <li class="nav-item">
+                            <img class="p-1 bg-warning mr-2 rounded"  src="assets/img/profile/<?= $row['image'] ?>" alt=""
                                 loading="lazy">
-                        </a>
-                    </li> -->
+                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle btn btn-warning text-dark" href="#" id="navbarDropdown"
                             role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
