@@ -1,0 +1,63 @@
+.form-group input::-webkit-outer-spin-button,
+.form-group input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+.form-group input[type=number] {
+    -moz-appearance: textfield;
+}
+
+#login,
+#reg {
+    height: 84vh;
+}
+
+#login .container #login-row #login-column #login-box {
+    margin-top: 120px;
+    max-width: 600px;
+    height: 330px;
+    /* border: 1px solid #9C9C9C; */
+    background-color: #343a40;
+    border-radius: 7px;
+    padding-top: 20px;
+}
+
+#login-form {
+    position: relative;
+}
+
+.alertt {
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    color: red;
+    transition: .4s;
+}
+
+#reg .container #reg-row #reg-column #reg-box {
+    margin-top: 120px;
+    max-width: 600px;
+    height: 500px;
+    /* border: 1px solid #9C9C9C; */
+    background-color: #343a40;
+    border-radius: 7px;
+    padding-top: 20px;
+}
+
+section {
+    min-height: 84vh !important;
+}
+.card-img-top{
+    width: 252px;
+    height: 370px;
+}
+
+.nav-item img{
+    width: 40px;
+    height: 100%;
+}
